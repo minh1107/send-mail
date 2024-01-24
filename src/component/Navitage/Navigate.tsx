@@ -34,7 +34,7 @@ const Navigate = (props: Props) => {
         <div className={`flex flex-col px-2 py-4 flex-1 ${!sidebarToggle ? "items-center" : ""}`}>
             {
                 navigateList.map(item => (
-                    <Link href={item.link} className='flex gap-3 p-4 hover:bg-gray-100 cursor-pointer rounded-md hover:text-header font-medium'>
+                    <Link key={item.id} href={item.link} className='flex gap-3 p-4 hover:bg-gray-100 cursor-pointer rounded-md hover:text-header font-medium'>
                         {item.icon}
                         {sidebarToggle && <p>{item.name}</p>}
                     </Link>
