@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/component/CampainNavbar"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/component/CampainNavbar", "src/app/(app)/newcampaign/workflow/nodes.js", "src/app/(app)/newcampaign/workflow/page.jsx", "src/app/(app)/newcampaign/workflow/edges.js"],
   "exclude": ["node_modules"]
 }

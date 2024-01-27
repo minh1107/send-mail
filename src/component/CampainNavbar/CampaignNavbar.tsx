@@ -27,7 +27,7 @@ const CampaignNavbar = (props: Props) => {
   }, [toggleEditCampaignTitle])
   console.log(currentRoute)
   return (
-    <div className='px-4 pt-4 shadow-md flex items-center justify-between'>
+    <div className='px-4 pt-4 shadow-md flex items-center justify-between border-b-[1px]'>
       <div className=''> 
         <div className='flex items-center gap-4'>
           <input ref={titleInputRef} className='w-fit p-4 font-semibold text-xl ' type="text" onChange={e => setCampaignTitle(e.target.value)} 
